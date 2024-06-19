@@ -28,6 +28,10 @@ header {
      z-index: 99;
      width: 100%;
      box-shadow: 0 2px 2px #3a3a3a;
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+
 
 }
 
@@ -50,6 +54,10 @@ h1 {
 
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
 .active {
         border-bottom: 1px solidn #3a3a3a;
 
@@ -66,14 +74,22 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-
+    top: 100%;
 
 }
 
-#menu > li {
-    margin-bottom: 1em;
+/* Navbar styles with dropdowm toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* Main Content */
 main {
     background-color: lightblue;
