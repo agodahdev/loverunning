@@ -188,6 +188,38 @@ main {
 
 }
 
+/* Landing page*/
+
+#reasons {
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reasons > h2 {
+    text-align: center;
+    font: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits > p {
+    padding-right: 20px;
+}
+
+#benefits-physical {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-mental {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+
+}
+
 /* Larger devices (Laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
