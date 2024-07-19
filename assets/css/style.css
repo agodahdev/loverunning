@@ -156,6 +156,15 @@ main {
 
 }
 
+/* Media  query: tablets or landscape phones (768px and up) */
+@media screen and (min-width: 768px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+    
+}
+
 /* Media query: tablets and largyer ( 768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -294,6 +303,11 @@ main {
     color: #ffffff;
 }
 
+/* Gallery*/
+#photos {
+    column-count: 3;
+}
+
 
 
 /* Larger devices (Laptops and desktops, 992px and up) */
@@ -301,7 +315,10 @@ main {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-    
+    /* Gallery*/
+    #photos {
+        column-count: 4;
+    }
 }
 
 /* Larger devices for 1200px and wider*/
