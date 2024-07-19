@@ -128,7 +128,18 @@ main {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
- 
+
+/*Gallery page  */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
